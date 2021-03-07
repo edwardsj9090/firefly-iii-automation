@@ -50,4 +50,6 @@ OR
 
 `chmod +x /path/to/your/filename.sh`
 
-**_Thank you JC5 for this awesome firefly-iii financial management app :)_**
+## Acknowledgements
+
+JC5 for this awesome firefly-iii financial management app :)
