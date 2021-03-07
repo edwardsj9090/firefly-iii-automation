@@ -57,6 +57,7 @@ echo
 sudo php artisan migrate:refresh --seed
 sudo php artisan firefly-iii:upgrade-database
 sudo php artisan passport:install
+sudo php artisan key:generate
 echo
 sudo service apache2 restart
 echo
