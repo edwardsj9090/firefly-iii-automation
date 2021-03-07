@@ -1,4 +1,4 @@
-# LinuxScripts
+# firefly-iii install
 Scripts for Linux upgrades and various Linux tasks.
 
 DO NOT run the installer as sudo or root.  Just run **sh installlampwithfirefly.sh**
@@ -12,7 +12,7 @@ These scripts assume you are running a flavor of Linux that includes apt package
 
 ================================
 
-To run the scripts you have to make them executable once you download them because some Linux distros by default do not allow .sh files to execute.
+If you have permission issues when running the .sh script without sudo, then try this:
 
 Here is how to make the .sh files executable:
 
