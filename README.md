@@ -9,18 +9,20 @@ At the terminal:
   3. `sh installlampwithfirefly.sh`
 
 Post-Install:
-  I would recommend changing the firefly mysql connection string defaults in **/var/www/html/firefly-iii/.env** file.
-    1.  Change the password for the mysql firefly user.
+
+I would recommend changing the firefly mysql connection string defaults in **/var/www/html/firefly-iii/.env** file.
+
+  1.  Change the password for the mysql firefly user.
         Login to your MySQL instance: `sudo mysql -u root -p`
         Change the firefly user's password: `ALTER USER 'firefly'@'localhost' IDENTIFIED BY 'newpassword';`
-    2. Edit the .env file in /var/www/html/firefly-iii/ and change the **DB_PASSWORD** parameter to a new password.
-       `sudo nano /var/www/html/firefly-iii/.env`
+  2. Edit the .env file in /var/www/html/firefly-iii/ and change the **DB_PASSWORD** parameter to a new password.
+      `sudo nano /var/www/html/firefly-iii/.env`
        
-       `DB_CONNECTION=mysql
-        DB_HOST=localhost
-        DB_PORT=3306
-        DB_DATABASE=firefly
-        DB_USERNAME=firefly
+      `DB_CONNECTION=mysql
+       DB_HOST=localhost
+       DB_PORT=3306
+       DB_DATABASE=firefly
+       DB_USERNAME=firefly
        **DB_PASSWORD=secret_firefly_password**`
 
 These scripts assume you are running a flavor of Linux that includes apt package manager.
