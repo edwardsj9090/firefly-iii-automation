@@ -32,7 +32,7 @@ I would recommend changing the firefly mysql connection string defaults in **/va
 
          DB_USERNAME=firefly
 
-         **DB_PASSWORD=secret_firefly_password**
+         DB_PASSWORD=secret_firefly_password
 
 These scripts assume you are running a flavor of Linux that includes apt package manager.
 
