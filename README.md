@@ -18,7 +18,7 @@ I would recommend changing the firefly mysql connection string defaults in **/va
         
         Change the firefly user's password: `ALTER USER 'firefly'@'localhost' IDENTIFIED BY 'newpassword';`
         
-  2. Edit the .env file in /var/www/html/firefly-iii/ and change the **DB_PASSWORD** parameter to the new password you created for the mysql firefly user.
+  2. Edit the **.env** file in **/var/www/html/firefly-iii/** and change the **DB_PASSWORD** parameter to the new password you created for the mysql firefly user.
 
         `sudo nano /var/www/html/firefly-iii/.env`
 
