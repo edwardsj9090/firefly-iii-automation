@@ -36,15 +36,15 @@ echo
 echo "Creating firefly database and user..."
 echo
 echo "Enter your MySQL root password.  If you don't have one, just hit Enter."
-sudo mysql -u root -p < $HOME/LinuxScripts/mysql_setup.txt
+sudo mysql -u root -p < $HOME/firefly-iii-automation/mysql_setup.txt
 echo
 echo "Replacing .env file in /var/www/html directory..."
 echo
-sudo cp $HOME/LinuxScripts/.env /var/www/html/firefly-iii/
+sudo cp $HOME/firefly-iii-automation/.env /var/www/html/firefly-iii/
 echo
 echo "Copy apache2.conf file to the /etc/apache2/ directory..."
 echo
-sudo cp $HOME/LinuxScripts/apache2.conf /etc/apache2/
+sudo cp $HOME/firefly-iii-automation/apache2.conf /etc/apache2/
 echo
 echo "Enable apache rewrite module"
 echo
