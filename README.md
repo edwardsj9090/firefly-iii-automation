@@ -6,7 +6,7 @@ This script assumes you are running a flavor of Linux that includes apt package 
 At the terminal:
   1. `git clone https://github.com/edwardsj9090/firefly-iii-automation`
       NOTE: If you don't have _git_ installed, just run `sudo apt install git`.
-  2. `cd LinuxScripts`
+  2. `cd firefly-iii-automation`
   3. `sh installlampwithfirefly.sh`
 
 Post-Install:
