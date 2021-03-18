@@ -9,7 +9,7 @@ At the terminal:
   2. `cd firefly-iii-automation`
   3. `sh installlampwithfirefly.sh`
 
-Post-Install:
+Post-Install (OPTIONAL):
 
 I would recommend changing the firefly mysql connection string defaults in **/var/www/html/firefly-iii/.env** file.
 
