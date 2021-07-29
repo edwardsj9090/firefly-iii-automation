@@ -3,10 +3,15 @@ This script assumes you are running a flavor of Linux that includes apt package 
 
 NOTE: For Debian, you may have to add the third party sury repo to get the php packages.
 `sudo apt update`
+
 `sudo apt install -y curl wget gnupg2 ca-certificates lsb-release apt-transport-https`
+
 `wget https://packages.sury.org/php/apt.gpg`
+
 `sudo apt-key add apt.gpg`
+
 `echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/php7.list`
+
 `sudo apt update`
 
 **DO NOT** run the installer as sudo or root.  Just run `sh installlampwithfirefly.sh`
