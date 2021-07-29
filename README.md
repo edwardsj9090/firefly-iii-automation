@@ -17,8 +17,6 @@ This script assumes you are running a flavor of Linux that includes apt package 
 
 ================================================
 
-**DO NOT** run the installer as sudo or root.  Just run `sh installlampwithfirefly.sh`
-
 At the terminal:
 
   1. `git clone https://github.com/edwardsj9090/firefly-iii-automation`
@@ -27,7 +25,7 @@ At the terminal:
       
   2. `cd firefly-iii-automation`
 
-  3. `sh installlampwithfirefly.sh`
+  3. **DO NOT** run the installer script as sudo or root.  Just run `sh installlampwithfirefly.sh`.
  
  If you have permission issues when running the .sh script without sudo, then try this:
 
