@@ -1,7 +1,7 @@
 # firefly-iii install
 This script assumes you are running a flavor of Linux that includes apt package manager.
 
-NOTE: For Debian, you may have to add the third party sury repo to get the php packages.
+**NOTE FOR DEBIAN USERS:** You may have to add the third party sury repo to get the php packages.
 
 `sudo apt update`
 
