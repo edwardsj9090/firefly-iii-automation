@@ -8,6 +8,20 @@ At the terminal:
       NOTE: If you don't have _git_ installed, just run `sudo apt install git`.
   2. `cd firefly-iii-automation`
   3. `sh installlampwithfirefly.sh`
+ 
+ If you have permission issues when running the .sh script without sudo, then try this:
+
+Here is how to make the .sh files executable:
+
+1. You can right click the file and go to the **Permissions** tab and tick the checkbox that says **"Allow executing file as program"**.
+
+OR
+
+2. Use the following terminal command to make the file executable:
+
+`chmod +x /path/to/your/filename.sh
+
+==========================================================
 
 Post-Install (OPTIONAL):
 
@@ -35,21 +49,7 @@ I would recommend changing the firefly mysql connection string defaults in **/va
 
          DB_PASSWORD=secret_firefly_password
          
-         
-
-================================
-
-If you have permission issues when running the .sh script without sudo, then try this:
-
-Here is how to make the .sh files executable:
-
-1. You can right click the file and go to the **Permissions** tab and tick the checkbox that says **"Allow executing file as program"**.
-
-OR
-
-2. Use the following terminal command to make the file executable:
-
-`chmod +x /path/to/your/filename.sh`
+================================`
 
 ## Acknowledgements
 
