@@ -67,7 +67,7 @@ I would recommend changing the firefly mysql connection string defaults in **/va
 
          DB_PASSWORD=secret_firefly_password
          
-================================`
+================================
 
 ## Acknowledgements
 
