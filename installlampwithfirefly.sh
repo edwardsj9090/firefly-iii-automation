@@ -27,7 +27,7 @@ echo "If prompted, just hit Enter"
 echo
 sudo composer create-project grumpydictator/firefly-iii --no-dev --prefer-dist firefly-iii 5.4.6
 echo
-echo "Change firefly-iii directory permissions"
+echo "Changed firefly-iii directory permissions"
 echo
 # This will stop the  white screen issue
 sudo chown -R www-data:www-data firefly-iii
