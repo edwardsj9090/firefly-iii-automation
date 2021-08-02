@@ -1,7 +1,7 @@
 # firefly-iii install
 This script assumes you are running a flavor of Linux that includes apt package manager.
 
-**NOTE FOR DEBIAN USERS:** You may have to add the third party sury repo to get the php packages.
+**NOTE FOR DEBIAN/RPi USERS:** You will have to add the third party _sury_ repo to get the php packages.
 
 `sudo apt update`
 
@@ -71,4 +71,4 @@ I would recommend changing the firefly mysql connection string defaults in **/va
 
 ## Acknowledgements
 
-JC5 for this awesome firefly-iii financial management app :)
+@JC5 for this awesome firefly-iii financial management app :)
