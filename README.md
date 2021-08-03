@@ -29,15 +29,13 @@ At the terminal:
  
  If you have permission issues when running the .sh script without sudo, then try this:
 
-Here is how to make the .sh files executable:
+  1. You can right click the file and go to the **Permissions** tab and tick the checkbox that says **"Allow executing file as program"**.
 
-1. You can right click the file and go to the **Permissions** tab and tick the checkbox that says **"Allow executing file as program"**.
+  OR
 
-OR
+  2. Use the following terminal command to make the file executable:
 
-2. Use the following terminal command to make the file executable:
-
-`chmod +x /path/to/your/filename.sh`
+    `chmod +x /path/to/your/filename.sh`
 
 ==========================================================
 
@@ -67,7 +65,7 @@ I would recommend changing the firefly mysql connection string defaults in **/va
 
          DB_PASSWORD=secret_firefly_password
          
-================================
+===========================================================
 
 ## Acknowledgements
 
