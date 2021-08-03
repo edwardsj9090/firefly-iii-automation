@@ -15,7 +15,7 @@ echo
 echo "Very nice...now we install the necessary web server components..."
 sleep 3
 echo
-sudo apt install apache2 mariadb-common mariadb-server php7.4 php7.4-bcmath php7.4-intl php7.4-curl php7.4-zip php7.4-gd php7.4-xml php7.4-mbstring php7.4-ldap php7.4-mysql php-mysql -y
+sudo apt install apache2 mysql-common mariadb-server php7.4 php7.4-bcmath php7.4-intl php7.4-curl php7.4-zip php7.4-gd php7.4-xml php7.4-mbstring php7.4-ldap php7.4-mysql php-mysql -y
 echo
 echo "Now to install Composer (a friendly php helper that unpacks the php libraries contained within firefly and creates a firefly-iii project..."
 echo
