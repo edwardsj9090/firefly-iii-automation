@@ -20,22 +20,14 @@ This script assumes you are running a flavor of Linux that includes apt package 
 At the terminal:
 
   1. If you don't have _git_ installed, just run `sudo apt install git`.
-
   2. `sudo git clone https://github.com/edwardsj9090/firefly-iii-automation`
-      
   3. `cd firefly-iii-automation`
 
-  4. **DO NOT** run the installer script as sudo or root.  Just run `sh installlampwithfirefly.sh`.
+**DO NOT** run the installer script as sudo or root.  Just run `sh installlampwithfirefly.sh`.
  
  If you have permission issues when running the .sh script without sudo, then try this:
-
-  1. You can right click the file and go to the **Permissions** tab and tick the checkbox that says **"Allow executing file as program"**.
-
-  OR
-
-  2. Use the following terminal command to make the file executable:
-
-    `chmod +x /path/to/your/filename.sh`
+ 
+ `chmod +x /path/to/your/filename.sh`
 
 ==========================================================
 
@@ -45,7 +37,7 @@ I would recommend changing the firefly mysql connection string defaults in **/va
 
   1.  Change the password for the mysql firefly user.
 
-        Login to your MySQL instance: `sudo mysql -u root -p`
+        Login to your MySQL instance: `sudo mysql -u root -p` (if you don't have a mysql root passowrd, press _Enter_ although I recommend changing that too).
         
         Change the firefly user's password: `ALTER USER 'firefly'@'localhost' IDENTIFIED BY 'newpassword';`
         
